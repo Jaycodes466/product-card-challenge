@@ -55,6 +55,7 @@ body {
 .card-title {
     font-size: 1.8rem;
     padding-bottom: 1rem;
+    font-family: 'Fraunces', serif;
 }
 
 .card-text {
@@ -104,4 +105,70 @@ body {
     font-weight: bold;
     position: relative;
     bottom: 2px;
+}
+
+/* Media Queries */
+
+/* Tablet Styles */
+@media only screen and (min-width: 768px) {
+
+    .card-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+         grid-auto-rows: 1fr
+    }
+
+    .card-header {
+        position: static;
+        bottom: 0;
+    }
+
+    .card-img {   
+        height: 385px;
+        border-radius: 15px 0 0 15px;
+    }
+
+    .card-body {
+        border-radius: 0 15px 0 0;
+    }
+
+    .card-footer {
+        border-radius: 0 0 15px 0;
+    }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 1024px) {
+
+    .card {
+        width: 700px;
+    }
+
+    .card-img {
+        height: 443px;
+    }
+
+    .card-body,
+    .card-footer {
+        padding: 1rem 2rem;
+    }
+
+    .card-title {
+        width: 80%;
+    }
+
+    .card-text {
+        width: 80%;
+    }
+
+    .add-to-cart-btn:hover {
+        cursor: pointer;
+    }
+
 }
