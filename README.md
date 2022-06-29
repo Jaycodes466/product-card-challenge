@@ -32,7 +32,6 @@ Users should be able to:
 
  [Live Site](https://jaycodes466.github.io/product-card-challenge/)
 
-## My process
 
 ### Built with
 
