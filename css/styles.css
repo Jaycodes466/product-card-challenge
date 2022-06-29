@@ -1,0 +1,20 @@
+/* Global Styles */
+:root {
+    --cyan:#3c8067;
+    --cream: #f2ebe3;
+    --dark-blue: #1c232b;
+    --gray-blue: #6c7289;
+    --white: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: 'Fraunces', serif;
+    font-family: 'Montserrat', sans-serif; */
+    font-size: 14px;
+}
